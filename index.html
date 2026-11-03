@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050914" />
+  <meta name="description" content="Aadi Mohane — Electronics and Telecommunication Engineering student exploring VLSI, semiconductor technology, FPGA systems and core electronics." />
+  <title>Aadi Mohane | VLSI & Semiconductor Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Aadi Mohane home"><span class="brand-mark">AM</span><span>AADI<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#credentials">Credentials</a><a class="nav-contact" href="#contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> ELECTRONICS & TELECOMMUNICATION ENGINEERING</div>
+        <p class="hero-kicker">HELLO, I'M</p>
+        <h1>Aadi<br><span>Mohane.</span></h1>
+        <h2>Exploring the architecture<br>behind <em>intelligent hardware.</em></h2>
+        <p class="hero-description">Third-year engineering student interested in VLSI, semiconductor technology, FPGA systems and core electronics. I enjoy solving problems and learning how hardware works—from digital logic to physical implementation.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↘</span></a><a class="text-link" href="https://www.linkedin.com/in/aadi-mohane" target="_blank" rel="noreferrer">Connect on LinkedIn <span>↗</span></a></div>
+        <div class="hero-meta"><span><b>01</b> / ENGINEERING</span><span><b>02</b> / VLSI & FPGA</span><span><b>03</b> / PROBLEM SOLVING</span></div>
+      </div>
+      <div class="chip-stage reveal" aria-label="Abstract semiconductor chip illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="circuit-grid"></div>
+        <svg class="chip-art" viewBox="0 0 560 560" role="img" aria-label="Glowing illustrated semiconductor chip">
+          <defs>
+            <linearGradient id="chipFace" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#183c70"/><stop offset=".55" stop-color="#0b1c37"/><stop offset="1" stop-color="#07101f"/></linearGradient>
+            <linearGradient id="chipEdge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#66d7ff"/><stop offset=".5" stop-color="#197dff"/><stop offset="1" stop-color="#7c5cff"/></linearGradient>
+            <filter id="glow"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <g class="chip-pins" stroke="#36baff" stroke-width="5" stroke-linecap="round" opacity=".9">
+            <path d="M160 115V65 M205 100V42 M250 92V28 M295 92V28 M340 100V42 M385 115V65 M445 160H495 M460 205H520 M468 250H532 M468 295H532 M460 340H520 M445 385H495 M385 445V495 M340 460V520 M295 468V532 M250 468V532 M205 460V520 M160 445V495 M115 385H65 M100 340H42 M92 295H28 M92 250H28 M100 205H42 M115 160H65"/>
+          </g>
+          <rect x="108" y="108" width="344" height="344" rx="34" fill="#06101e" stroke="url(#chipEdge)" stroke-width="5" filter="url(#glow)"/>
+          <rect x="130" y="130" width="300" height="300" rx="22" fill="url(#chipFace)" stroke="#2b8cff" stroke-opacity=".6" stroke-width="2"/>
+          <path d="M155 180H405 M155 380H405 M180 155V405 M380 155V405" stroke="#3aaeff" stroke-opacity=".18" stroke-width="1"/>
+          <g fill="none" stroke="#48c7ff" stroke-width="3" opacity=".8"><path d="M180 215H225V245H255 M380 215H335V245H305 M180 345H225V315H255 M380 345H335V315H305"/><path d="M280 165V205 M280 355V395 M165 280H205 M355 280H395"/></g>
+          <rect x="218" y="218" width="124" height="124" rx="18" fill="#071a32" stroke="#5bcaff" stroke-width="2"/>
+          <g fill="#75dcff"><rect x="238" y="238" width="30" height="30" rx="5"/><rect x="292" y="238" width="30" height="30" rx="5"/><rect x="238" y="292" width="30" height="30" rx="5"/><rect x="292" y="292" width="30" height="30" rx="5"/></g>
+          <path d="M280 270V290 M270 280H290" stroke="#06101e" stroke-width="4"/>
+          <text x="280" y="410" text-anchor="middle" fill="#9bdfff" font-family="DM Mono" font-size="13" letter-spacing="4">SILICON / LOGIC</text>
+        </svg>
+        <div class="chip-label label-top"><span class="label-line"></span> DIGITAL DESIGN</div>
+        <div class="chip-label label-bottom">FPGA <span>•</span> VLSI <span>•</span> HARDWARE</div>
+        <div class="floating-code code-one">1010 0110<br>0011 1101</div><div class="floating-code code-two">CLK // DATA<br>LOGIC_CORE</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="intro-strip"><div class="strip-inner"><span>VLSI</span><i>✳</i><span>SEMICONDUCTORS</span><i>✳</i><span>FPGA SYSTEMS</span><i>✳</i><span>CORE ELECTRONICS</span><i>✳</i><span>PROBLEM SOLVING</span></div></section>
+
+    <section class="content-section section-shell" id="about">
+      <div class="section-heading reveal"><p class="section-index">01 / PROFILE</p><h2>Curiosity wired<br>into <span>every layer.</span></h2></div>
+      <div class="about-layout"><div class="about-copy reveal"><p class="lead">I am an Electronics and Telecommunication Engineering student at Shri Sant Gajanan Maharaj College of Engineering, Shegaon.</p><p>My interests centre on VLSI and semiconductor technology, with practical exposure to FPGA-based digital design, EDA tools and embedded hardware. I like understanding how systems work, testing ideas and working through technical problems with a hands-on approach.</p><p>My learning so far has taken me through VLSI training at NIT Rourkela and a collaborative embedded-systems project. Each experience has helped me connect classroom concepts with engineering workflows.</p><a class="inline-link" href="assets/Aadi_Mohane_Resume.pdf" download>Download résumé <span>↓</span></a></div>
+        <div class="about-facts reveal"><div class="fact-card"><span class="fact-number">2024—28</span><span class="fact-label">B.E. · E&TC</span></div><div class="fact-card"><span class="fact-number">7.70</span><span class="fact-label">CURRENT CGPA</span></div><div class="fact-card"><span class="fact-number">NIT</span><span class="fact-label">ROURKELA · VLSI TRAINING</span></div><div class="fact-card"><span class="fact-number">04</span><span class="fact-label">SEED PROJECT TEAM</span></div></div></div>
+    </section>
+
+    <section class="content-section skills-section" id="skills"><div class="section-shell"><div class="section-heading reveal"><p class="section-index">02 / TOOLKIT</p><h2>Tools I’ve <span>worked with.</span></h2><p class="section-subtitle">Explore the areas below. Skill tags describe tools and topics I have encountered; they are not proficiency ratings.</p></div>
+      <div class="skill-filters reveal" role="group" aria-label="Filter skills"><button class="filter-chip active" data-filter="all">All</button><button class="filter-chip" data-filter="vlsi">VLSI & digital</button><button class="filter-chip" data-filter="hardware">Embedded & hardware</button><button class="filter-chip" data-filter="software">Software & data</button></div>
+      <div class="skills-grid reveal">
+        <article class="skill-card" data-category="vlsi"><span class="skill-icon">⌘</span><h3>Xilinx Vivado</h3><p>FPGA workflows, simulation and timing analysis exposure.</p><small>VLSI / DIGITAL</small></article>
+        <article class="skill-card" data-category="vlsi"><span class="skill-icon">◈</span><h3>Cadence EDA</h3><p>Exposure to Genus, Innovus, Virtuoso and related tools during training.</p><small>VLSI / DIGITAL</small></article>
+        <article class="skill-card" data-category="hardware"><span class="skill-icon">⌁</span><h3>Arduino IDE</h3><p>Microcontroller-based project work and hardware integration.</p><small>EMBEDDED</small></article>
+        <article class="skill-card" data-category="hardware"><span class="skill-icon">▦</span><h3>Sensor interfacing</h3><p>Temperature, humidity and soil-moisture sensor connections.</p><small>HARDWARE</small></article>
+        <article class="skill-card" data-category="hardware"><span class="skill-icon">⌬</span><h3>Relay systems</h3><p>Practical exposure to relay operation and control connections.</p><small>HARDWARE</small></article>
+        <article class="skill-card" data-category="hardware"><span class="skill-icon">▤</span><h3>EasyEDA</h3><p>Schematic interpretation and introductory PCB layout exposure.</p><small>CIRCUIT DESIGN</small></article>
+        <article class="skill-card" data-category="software"><span class="skill-icon">Py</span><h3>Python</h3><p>Basic scripting fundamentals.</p><small>PROGRAMMING</small></article>
+        <article class="skill-card" data-category="software"><span class="skill-icon">∑</span><h3>MATLAB</h3><p>Basic engineering software exposure.</p><small>ENGINEERING</small></article>
+        <article class="skill-card" data-category="software"><span class="skill-icon">DB</span><h3>SQL</h3><p>Basic database query knowledge.</p><small>DATA</small></article>
+      </div></div>
+    </section>
+
+    <section class="content-section section-shell" id="projects"><div class="section-heading reveal"><p class="section-index">03 / SELECTED WORK</p><h2>Learning by <span>building & testing.</span></h2><p class="section-subtitle">A closer look at two technical experiences, with contributions and limitations stated clearly.</p></div>
+      <article class="project-feature reveal"><div class="project-topline"><span>PROJECT 01</span><span>VLSI / FPGA · MAY—JUNE 2026</span></div><div class="project-title-row"><div><p class="project-type">NIT ROURKELA · TECHNICAL TRAINING</p><h3>GCD Processor</h3><p class="project-subtitle">FPGA-based digital design and analysis</p></div><span class="project-number">01</span></div><p class="project-description">Participated in a VLSI training project centred on a GCD processor. The training involved simulation analysis, timing analysis and testing multiple input combinations, alongside exposure to FPGA platforms and the digital implementation toolchain.</p><div class="project-tags"><span>Vivado</span><span>Cadence Genus</span><span>Innovus</span><span>Virtuoso</span><span>FPGA</span></div><div class="project-contribution"><h4>Work & learning</h4><ul><li>Performed simulation and timing analysis using the provided training design.</li><li>Tested different input combinations and observed processor behaviour.</li><li>Worked with FPGA development boards, including Boolean Board and Digilent Basys 3.</li><li>Gained exposure to Cadence tools and the semiconductor design flow.</li></ul><p class="honesty-note">The RTL/code was provided during the training. This entry focuses on analysis, testing and tool exposure rather than independent RTL authorship or chip fabrication.</p></div></article>
+      <article class="project-feature project-second reveal"><div class="project-topline"><span>PROJECT 02</span><span>EMBEDDED SYSTEMS · COMPLETED</span></div><div class="project-title-row"><div><p class="project-type">TEAM PROJECT · 4 MEMBERS</p><h3>Seed Germination<br>Environmental Simulator</h3><p class="project-subtitle">Local sensor-based monitoring and control</p></div><span class="project-number">02</span></div><p class="project-description">Collaborated in a four-member team to assemble and demonstrate a functional prototype for monitoring environmental conditions relevant to seed germination, using an Arduino Mega and local sensor-based monitoring.</p><div class="project-tags"><span>Arduino Mega</span><span>DHT11</span><span>Soil moisture</span><span>LCD</span><span>Relay control</span></div><div class="project-contribution"><h4>My contribution</h4><ul><li>Worked on sensor interfacing and hardware assembly.</li><li>Collaborated with teammates to troubleshoot hardware and integration issues.</li><li>Participated in the final working demonstration.</li><li>Learned practical relay operation and deadline-driven team execution.</li></ul><p class="honesty-note">The Arduino code was supplied for the project with ChatGPT assistance. Monitoring was local; cloud connectivity and remote monitoring were not implemented.</p></div></article>
+    </section>
+
+    <section class="content-section experience-section" id="experience"><div class="section-shell"><div class="section-heading reveal"><p class="section-index">04 / EXPERIENCE</p><h2>Beyond the <span>technical work.</span></h2></div><div class="experience-card reveal"><div class="experience-date">SEP 2025 — FEB 2026</div><div class="experience-main"><p class="project-type">CAMPUS ENGAGEMENT & OUTREACH</p><h3>Google Student Ambassador</h3><p>Contributed to campus technology awareness and student engagement at SSGMCE.</p><ul><li>Co-conducted <em>Career Intelligence: Where AI Meets Your MBA Future</em> with two fellow ambassadors.</li><li>Contributed to a session attended by over 40 students.</li><li>Distributed participation certificates to MBA students.</li><li>Developed teamwork, public-speaking and event-coordination experience.</li></ul></div><div class="experience-mark">G<span>.</span></div></div><div class="ambassador-gallery gallery-grid reveal"><figure><img src="assets/ambassador-session.jpg" alt="Career Intelligence workshop session"><figcaption>Workshop session</figcaption></figure><figure><img src="assets/ambassador-group.jpg" alt="Workshop participants group photograph"><figcaption>Participants and organisers</figcaption></figure><figure><img src="assets/ambassador-team.jpg" alt="Three student ambassadors"><figcaption>Ambassador team</figcaption></figure></div></div></section>
+
+    <section class="content-section section-shell" id="credentials"><div class="section-heading reveal"><p class="section-index">05 / CREDENTIALS</p><h2>Learning, recognised.</h2><p class="section-subtitle">Selected certificates and recognition connected to my learning and campus engagement.</p></div><div class="credentials-grid reveal"><article class="credential-card"><div class="credential-image"><img src="assets/google-ambassador-completion.jpg" alt="Google Student Ambassador Program completion certificate"></div><div class="credential-info"><span>DECEMBER 2025</span><h3>Google Student Ambassador Program</h3><p>Certificate of Completion</p></div></article><article class="credential-card"><div class="credential-image"><img src="assets/ambassador-event-certificate.jpg" alt="Career Intelligence event participation certificate"></div><div class="credential-info"><span>SSGMCE · MBA DEPARTMENT</span><h3>Career Intelligence Workshop</h3><p>Certificate of Participation</p></div></article><article class="credential-card"><div class="credential-image"><img src="assets/nit-rourkela-certificate.jpg" alt="NIT Rourkela VLSI-CAD 2026 certificate of completion"></div><div class="credential-info"><span>MAY–JUNE 2026</span><h3>VLSI-CAD 2026 · NIT Rourkela</h3><p>Summer Internship Programme: Design and Implementation of a Single-Cycle RISC-V Processor using Verilog HDL</p></div></article></div></section>
+
+    <section class="goal-band"><div class="section-shell goal-inner reveal"><p class="section-index">06 / DIRECTION</p><h2>Building towards<br><span>semiconductor innovation.</span></h2><p>I aim to deepen my understanding of VLSI design, digital systems, FPGA implementation and hardware verification while growing through practical engineering experience.</p><div class="goal-words"><span>VLSI DESIGN</span><span>SEMICONDUCTORS</span><span>DIGITAL SYSTEMS</span><span>CORE ELECTRONICS</span></div></div></section>
+
+    <section class="contact-section section-shell" id="contact"><div class="contact-copy reveal"><p class="section-index">07 / CONTACT</p><h2>Let's connect<br><span>and build what's next.</span></h2><p>For technical opportunities, collaboration or conversations around electronics and semiconductor technology.</p></div><div class="contact-links reveal"><a href="mailto:aadi.mohane2005@gmail.com"><span>EMAIL</span><strong>aadi.mohane2005@gmail.com</strong><b>↗</b></a><a href="https://www.linkedin.com/in/aadi-mohane" target="_blank" rel="noreferrer"><span>LINKEDIN</span><strong>linkedin.com/in/aadi-mohane</strong><b>↗</b></a><a href="assets/Aadi_Mohane_Resume.pdf" download><span>DOCUMENT</span><strong>Download résumé (PDF)</strong><b>↓</b></a></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">AM</span><span>AADI<span class="brand-dot">.</span></span></a><p>Designed around curiosity, circuits and continuous learning.</p><span>© <span id="year"></span> Aadi Mohane</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
